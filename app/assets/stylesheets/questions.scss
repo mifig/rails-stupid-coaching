@@ -1,0 +1,35 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.new-question {
+  text-decoration: none;
+  color: blueviolet;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 5px;
+  &:hover {
+    color: blueviolet;
+    transition: ease 0.3s;
+    text-shadow: 2px 2px rgba(120, 120, 120, 0.2);
+    text-decoration: underline blueviolet;
+  }
+}
+
+form {
+  margin-top: 8px;
+}
+
+.answer {
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  border-left: 4px solid #b9b9b9;
+}
+
+.yellow {
+  background-color: #FFFFE1;
+}
+
+p {
+  margin: 0;
+}

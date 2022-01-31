@@ -1,0 +1,1549 @@
+Started GET "/" for ::1 at 2022-01-31 17:05:56 +0000
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/miguelfigueiredo/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/miguelfigueiredo/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.6ms | Allocations: 438)
+Completed 200 OK in 20ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 2386)
+
+
+Started GET "/" for ::1 at 2022-01-31 17:10:16 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/miguelfigueiredo/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/miguelfigueiredo/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.7ms | Allocations: 219)
+Completed 200 OK in 9ms (Views: 7.5ms | Allocations: 806)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 17:10:19 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.9ms | Allocations: 103)
+[Webpacker] Compiling...
+Started GET "/ask" for ::1 at 2022-01-31 17:10:21 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/miguelfigueiredo/tmp/rails-stupid-coaching/public/packs
+[Webpacker] Hash: 69476d9841cad6e0fc8f
+Version: webpack 4.46.0
+Time: 1114ms
+Built at: 01/31/2022 5:10:22 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-5accda8ceb31ae36946e.js   89.6 KiB  application  [emitted] [immutable]  application
+js/application-5accda8ceb31ae36946e.js.map   97.6 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-5accda8ceb31ae36946e.js js/application-5accda8ceb31ae36946e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 414 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 2 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3077.6ms | Allocations: 22085)
+Completed 200 OK in 3082ms (Views: 3079.8ms | Allocations: 22939)
+
+
+[Webpacker] Compiled all packs in /Users/miguelfigueiredo/tmp/rails-stupid-coaching/public/packs
+[Webpacker] Hash: 69476d9841cad6e0fc8f
+Version: webpack 4.46.0
+Time: 497ms
+Built at: 01/31/2022 5:10:23 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-5accda8ceb31ae36946e.js   89.6 KiB  application  [emitted] [immutable]  application
+js/application-5accda8ceb31ae36946e.js.map   97.6 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-5accda8ceb31ae36946e.js js/application-5accda8ceb31ae36946e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 414 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 2 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1566.5ms | Allocations: 6318)
+Completed 200 OK in 1567ms (Views: 1566.8ms | Allocations: 6618)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 17:10:30 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3481)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 3836)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:33:53 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3702)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 4576)
+
+
+Started GET "/answer?question=aba" for ::1 at 2022-01-31 18:33:56 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/answer"):
+  
+Started PUT "/__web_console/repl_sessions/1e546dbd437ec58f3e8746e77fa12223" for ::1 at 2022-01-31 18:34:04 +0000
+Started PUT "/__web_console/repl_sessions/1e546dbd437ec58f3e8746e77fa12223" for ::1 at 2022-01-31 18:34:21 +0000
+Started PUT "/__web_console/repl_sessions/1e546dbd437ec58f3e8746e77fa12223" for ::1 at 2022-01-31 18:34:23 +0000
+Started GET "/answer" for ::1 at 2022-01-31 18:35:06 +0000
+  
+AbstractController::ActionNotFound (The action 'answer' could not be found for QuestionsController
+Did you mean?  ask):
+  
+actionpack (6.1.4.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.4.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.4) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.4) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/host_authorization.rb:119:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.2) lib/rack/proxy.rb:67:in `call'
+railties (6.1.4.4) lib/rails/engine.rb:539:in `call'
+puma (5.6.1) lib/puma/configuration.rb:252:in `call'
+puma (5.6.1) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.1) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.1) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.1) lib/puma/server.rb:441:in `process_client'
+puma (5.6.1) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/question" for ::1 at 2022-01-31 18:35:12 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/question"):
+  
+Started GET "/questions" for ::1 at 2022-01-31 18:35:16 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/questions"):
+  
+Started GET "/ask" for ::1 at 2022-01-31 18:35:18 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.7ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3859)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 4804)
+
+
+Started GET "/answer?question=aajhas" for ::1 at 2022-01-31 18:35:37 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"aajhas"}
+Completed 406 Not Acceptable in 2ms (Allocations: 962)
+
+
+  
+ActionController::MissingExactTemplate (QuestionsController#answer is missing a template for request formats: text/html):
+  
+actionpack (6.1.4.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.4.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.4.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.4.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.4.4) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.4.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.4.4) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.4.4) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.4.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.4.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.4.4) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.4.4) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.4.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.4.4) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.4.4) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.4.4) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.4.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.4.4) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.4.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.4) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.4) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/host_authorization.rb:119:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.2) lib/rack/proxy.rb:67:in `call'
+railties (6.1.4.4) lib/rails/engine.rb:539:in `call'
+puma (5.6.1) lib/puma/configuration.rb:252:in `call'
+puma (5.6.1) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.1) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.1) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.1) lib/puma/server.rb:441:in `process_client'
+puma (5.6.1) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/answer?question=aajhas" for ::1 at 2022-01-31 18:36:46 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"aajhas"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.4ms | Allocations: 122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3730)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 4609)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:36:57 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.8ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3551)
+Completed 200 OK in 13ms (Views: 10.9ms | Allocations: 4024)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:30 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.8ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3783)
+Completed 200 OK in 18ms (Views: 16.6ms | Allocations: 4651)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:32 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3506)
+Completed 200 OK in 14ms (Views: 13.5ms | Allocations: 3854)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:32 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3506)
+Completed 200 OK in 17ms (Views: 15.6ms | Allocations: 3853)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:33 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3506)
+Completed 200 OK in 13ms (Views: 12.6ms | Allocations: 3853)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:35 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3506)
+Completed 200 OK in 14ms (Views: 13.5ms | Allocations: 3853)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:46 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.5ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 3786)
+Completed 200 OK in 19ms (Views: 16.8ms | Allocations: 4659)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:47 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3506)
+Completed 200 OK in 12ms (Views: 10.6ms | Allocations: 3857)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:48 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3506)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 3856)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:48 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.6ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3506)
+Completed 200 OK in 13ms (Views: 11.5ms | Allocations: 3856)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:48 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3506)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 3856)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:48 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3506)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 3856)
+
+
+Started GET "/answer?question=ahsjhsa" for ::1 at 2022-01-31 18:38:53 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"ahsjhsa"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.6ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3782)
+Completed 200 OK in 16ms (Views: 13.6ms | Allocations: 4651)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:55 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.7ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 4195)
+Completed 200 OK in 15ms (Views: 13.1ms | Allocations: 4671)
+
+
+Started GET "/answer?question=asahjhahsj" for ::1 at 2022-01-31 18:38:57 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"asahjhahsj"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3515)
+Completed 200 OK in 13ms (Views: 11.6ms | Allocations: 3863)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:38:58 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4117)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 4467)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:42:00 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.6ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3790)
+Completed 200 OK in 17ms (Views: 15.1ms | Allocations: 4663)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:42:00 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3511)
+Completed 200 OK in 14ms (Views: 12.7ms | Allocations: 3861)
+
+
+Started GET "/answer?question=ahjaa" for ::1 at 2022-01-31 18:42:02 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"ahjaa"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 1.2ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 3609)
+Completed 200 OK in 27ms (Views: 25.1ms | Allocations: 4081)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:43:05 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 4120)
+Completed 200 OK in 14ms (Views: 13.2ms | Allocations: 4471)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:43:28 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3771)
+Completed 200 OK in 7ms (Views: 5.8ms | Allocations: 4642)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:43:28 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3506)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 3854)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:43:29 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3506)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 3853)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:45:10 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.6ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 3773)
+Completed 200 OK in 24ms (Views: 22.3ms | Allocations: 4643)
+
+
+Started GET "/answer?question=ahjaa" for ::1 at 2022-01-31 18:45:12 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"ahjaa"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.7ms | Allocations: 140)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3733)
+Completed 200 OK in 10ms (Views: 8.4ms | Allocations: 4239)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:45:55 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.5ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3788)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 4661)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:46:07 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.9ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3776)
+Completed 200 OK in 14ms (Views: 12.4ms | Allocations: 4644)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:47:01 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3775)
+Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 4646)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:47:01 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3506)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 3854)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:47:58 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.6ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3788)
+Completed 200 OK in 18ms (Views: 16.8ms | Allocations: 4661)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:49:22 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3789)
+Completed 200 OK in 18ms (Views: 16.2ms | Allocations: 4662)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:49:33 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3778)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 4646)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:49:43 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.8ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 3775)
+Completed 200 OK in 19ms (Views: 17.3ms | Allocations: 4643)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:50:35 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.8ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 3775)
+Completed 200 OK in 19ms (Views: 17.1ms | Allocations: 4646)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:50:37 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3507)
+Completed 200 OK in 14ms (Views: 13.8ms | Allocations: 3857)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:50:37 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.4ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3576)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 3992)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:50:37 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3506)
+Completed 200 OK in 13ms (Views: 12.6ms | Allocations: 3853)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:50:38 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3506)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 3855)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:50:54 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.5ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3780)
+Completed 200 OK in 13ms (Views: 11.6ms | Allocations: 4651)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:51:15 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.7ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 3775)
+Completed 200 OK in 19ms (Views: 17.0ms | Allocations: 4643)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:51:32 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 1.0ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3789)
+Completed 200 OK in 16ms (Views: 14.0ms | Allocations: 4662)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:52:10 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 1.2ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 3781)
+Completed 200 OK in 21ms (Views: 18.7ms | Allocations: 4651)
+
+
+Started GET "/answer?question=hjhjahjsa" for ::1 at 2022-01-31 18:52:12 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"hjhjahjsa"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.7ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3608)
+Completed 200 OK in 14ms (Views: 12.5ms | Allocations: 4083)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:52:15 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.3ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4117)
+Completed 200 OK in 15ms (Views: 13.7ms | Allocations: 4468)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:52:17 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3506)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 3856)
+
+
+Started GET "/answer?question=hshs" for ::1 at 2022-01-31 18:52:19 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"hshs"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3516)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 3863)
+
+
+Started GET "/answer?question=hshs" for ::1 at 2022-01-31 18:55:13 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"hshs"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.4ms | Allocations: 142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3803)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 4697)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:55:15 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.7ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4186)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 4662)
+
+
+Started GET "/answer?question=hajha%3F" for ::1 at 2022-01-31 18:55:17 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"hajha?"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 3511)
+Completed 200 OK in 16ms (Views: 13.5ms | Allocations: 3874)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:55:20 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4130)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 4482)
+
+
+Started GET "/answer?question=I+am+going+to+work" for ::1 at 2022-01-31 18:55:25 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"I am going to work"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3511)
+Completed 200 OK in 13ms (Views: 11.5ms | Allocations: 3872)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:55:28 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 4113)
+Completed 200 OK in 14ms (Views: 13.5ms | Allocations: 4463)
+
+
+Started GET "/answer?question=aaahsgh" for ::1 at 2022-01-31 18:55:29 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"aaahsgh"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3510)
+Completed 200 OK in 6ms (Views: 6.0ms | Allocations: 3872)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 18:55:31 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4129)
+Completed 200 OK in 13ms (Views: 12.7ms | Allocations: 4479)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:03:25 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.7ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3796)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 4669)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:03:27 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3512)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 3865)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:03:28 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3511)
+Completed 200 OK in 11ms (Views: 10.3ms | Allocations: 3861)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:03:28 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3511)
+Completed 200 OK in 12ms (Views: 10.6ms | Allocations: 3861)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:03:28 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3517)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 3867)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:03:29 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3522)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 3874)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:03:29 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3511)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 3863)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:03:29 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3511)
+Completed 200 OK in 12ms (Views: 11.0ms | Allocations: 3861)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:03:44 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.7ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 3783)
+Completed 200 OK in 21ms (Views: 19.0ms | Allocations: 4654)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:05:13 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 4358)
+Completed 500 Internal Server Error in 27ms (Allocations: 4679)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "...coration: none;": expected "}", was "&:hover"
+        on line 5:25 of app/assets/stylesheets/questions.scss
+>>   text-decoration: none;
+
+   ------------------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+  
+app/assets/stylesheets/questions.scss:5
+app/views/layouts/application.html.erb:9
+Started GET "/ask" for ::1 at 2022-01-31 19:05:42 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 10541)
+Completed 200 OK in 38ms (Views: 37.3ms | Allocations: 10889)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:06:46 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 4502)
+Completed 500 Internal Server Error in 18ms (Allocations: 4822)
+
+
+  
+ActionView::Template::Error (Error: style declaration must contain a value
+        on line 6:8 of app/assets/stylesheets/questions.scss
+>>   color: ;
+
+   -------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+  
+app/assets/stylesheets/questions.scss:6
+app/views/layouts/application.html.erb:9
+Started GET "/ask" for ::1 at 2022-01-31 19:06:56 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 10733)
+Completed 200 OK in 37ms (Views: 36.7ms | Allocations: 11081)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:07:34 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.5ms | Allocations: 11259)
+Completed 200 OK in 37ms (Views: 36.1ms | Allocations: 11606)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:07:45 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.7ms | Allocations: 11291)
+Completed 200 OK in 37ms (Views: 36.4ms | Allocations: 11638)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:07:47 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3518)
+Completed 200 OK in 14ms (Views: 13.7ms | Allocations: 3865)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:07:57 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 11734)
+Completed 200 OK in 28ms (Views: 27.3ms | Allocations: 12082)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:09:39 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 11266)
+Completed 200 OK in 38ms (Views: 36.9ms | Allocations: 11614)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:09:55 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 11293)
+Completed 200 OK in 28ms (Views: 27.3ms | Allocations: 11640)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:10:10 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.0ms | Allocations: 10860)
+Completed 200 OK in 38ms (Views: 37.7ms | Allocations: 11207)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:10:13 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3518)
+Completed 200 OK in 13ms (Views: 12.0ms | Allocations: 3868)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:10:18 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3518)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 3868)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:11:01 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 10867)
+Completed 200 OK in 42ms (Views: 41.4ms | Allocations: 11214)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:11:29 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 11798)
+Completed 200 OK in 31ms (Views: 30.0ms | Allocations: 12145)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:11:47 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3559)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 3906)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:11:53 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 12174)
+Completed 200 OK in 28ms (Views: 27.1ms | Allocations: 12521)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:12:01 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 10858)
+Completed 200 OK in 38ms (Views: 36.8ms | Allocations: 11205)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:12:08 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 12251)
+Completed 200 OK in 30ms (Views: 29.7ms | Allocations: 12598)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:12:19 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 11299)
+Completed 200 OK in 40ms (Views: 39.6ms | Allocations: 11646)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:12:30 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 11324)
+Completed 200 OK in 35ms (Views: 34.3ms | Allocations: 11671)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:12:47 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 11733)
+Completed 200 OK in 28ms (Views: 27.1ms | Allocations: 12080)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:13:21 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 11304)
+Completed 200 OK in 40ms (Views: 39.0ms | Allocations: 11652)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:13:35 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.3ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 12140)
+Completed 200 OK in 32ms (Views: 31.4ms | Allocations: 12488)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:13:56 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 11731)
+Completed 200 OK in 28ms (Views: 26.9ms | Allocations: 12078)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:14:08 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 11297)
+Completed 200 OK in 37ms (Views: 36.7ms | Allocations: 11644)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:14:18 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 11768)
+Completed 200 OK in 29ms (Views: 28.4ms | Allocations: 12116)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:14:46 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 12210)
+Completed 200 OK in 19ms (Views: 18.1ms | Allocations: 12557)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:15:10 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 12171)
+Completed 200 OK in 38ms (Views: 37.1ms | Allocations: 12518)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:15:16 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 5027)
+Completed 500 Internal Server Error in 16ms (Allocations: 5346)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "...ckground-color:": expected expression (e.g. 1px, bold), was "!blueviolet;"
+        on line 23:21 of app/assets/stylesheets/questions.scss
+>>   background-color: !blueviolet;
+
+   --------------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+  
+app/assets/stylesheets/questions.scss:23
+app/views/layouts/application.html.erb:9
+Started GET "/ask" for ::1 at 2022-01-31 19:15:40 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 11341)
+Completed 200 OK in 40ms (Views: 39.6ms | Allocations: 11688)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:16:13 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.8ms | Allocations: 12236)
+Completed 200 OK in 35ms (Views: 34.5ms | Allocations: 12583)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:16:18 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 1.1ms | Allocations: 138)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3646)
+Completed 200 OK in 15ms (Views: 13.1ms | Allocations: 4133)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:17:13 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.5ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 3563)
+Completed 200 OK in 20ms (Views: 19.3ms | Allocations: 3926)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:20:44 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.8ms | Allocations: 144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 3828)
+Completed 200 OK in 23ms (Views: 20.8ms | Allocations: 4714)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:21:08 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 1.0ms | Allocations: 142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 3833)
+Completed 200 OK in 19ms (Views: 17.6ms | Allocations: 4716)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:21:27 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.8ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3836)
+Completed 200 OK in 18ms (Views: 16.4ms | Allocations: 4723)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:22:06 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.9ms | Allocations: 144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 3831)
+Completed 200 OK in 20ms (Views: 18.2ms | Allocations: 4715)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:22:19 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 1.3ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 3828)
+Completed 200 OK in 20ms (Views: 17.8ms | Allocations: 4712)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:23:31 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.7ms | Allocations: 142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 12529)
+Completed 200 OK in 39ms (Views: 37.5ms | Allocations: 13413)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:23:48 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 13098)
+Completed 200 OK in 37ms (Views: 36.4ms | Allocations: 13462)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:25:20 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 12213)
+Completed 200 OK in 41ms (Views: 40.3ms | Allocations: 12575)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:26:30 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.9ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 3873)
+Completed 200 OK in 20ms (Views: 18.5ms | Allocations: 4759)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:26:41 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 1.0ms | Allocations: 146)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 3837)
+Completed 200 OK in 19ms (Views: 17.3ms | Allocations: 4724)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:26:52 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 13564)
+Completed 200 OK in 35ms (Views: 34.0ms | Allocations: 13927)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:27:27 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 11780)
+Completed 200 OK in 29ms (Views: 28.6ms | Allocations: 12142)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:27:29 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3522)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 3884)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:27:32 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3522)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 3884)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:28:50 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 2.3ms | Allocations: 146)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 12541)
+Completed 200 OK in 45ms (Views: 43.2ms | Allocations: 13428)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:28:56 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 12231)
+Completed 200 OK in 38ms (Views: 36.8ms | Allocations: 12594)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:29:04 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | Allocations: 12630)
+Completed 200 OK in 38ms (Views: 37.2ms | Allocations: 12992)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:29:27 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 12751)
+Completed 200 OK in 41ms (Views: 40.3ms | Allocations: 13114)
+
+
+Started GET "/answer?question=agagha" for ::1 at 2022-01-31 19:29:36 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"agagha"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 12267)
+Completed 200 OK in 40ms (Views: 38.7ms | Allocations: 12629)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:29:42 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 1.7ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 4210)
+Completed 200 OK in 17ms (Views: 15.1ms | Allocations: 4685)
+
+
+Started GET "/answer?question=hshjshjs" for ::1 at 2022-01-31 19:29:43 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"hshjshjs"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3523)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 3886)
+
+
+Started GET "/ask" for ::1 at 2022-01-31 19:29:46 +0000
+Processing by QuestionsController#ask as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/ask.html.erb within layouts/application
+  Rendered questions/ask.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4137)
+Completed 200 OK in 14ms (Views: 12.7ms | Allocations: 4487)
+
+
+Started GET "/answer?question=aaa%3F" for ::1 at 2022-01-31 19:29:49 +0000
+Processing by QuestionsController#answer as HTML
+  Parameters: {"question"=>"aaa?"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/answer.html.erb within layouts/application
+  Rendered questions/answer.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3523)
+Completed 200 OK in 13ms (Views: 12.5ms | Allocations: 3885)
+
+
